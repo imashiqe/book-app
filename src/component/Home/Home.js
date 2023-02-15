@@ -1,17 +1,10 @@
 import React from 'react';
+import Banner from './Banner/Banner';
 
 const Home = () => {
     return (
         <div className=''>
-             <div className='container  grid-cols-2'>
-                   <div>
-                      <h2>one</h2>
-                   </div>
-
-                   <div>
-                      <h2>Two</h2>
-                   </div>
-             </div>
+            <Banner></Banner>
         </div>
     );
 };
