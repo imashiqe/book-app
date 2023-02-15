@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -37,8 +38,8 @@ const Header = () => {
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
+    <ul className="menu menu-horizontal px-1 ">
+       <Link to='/' className='pt-3'>Home</Link>
       <li tabIndex={0}>
         <a>
           Pages
