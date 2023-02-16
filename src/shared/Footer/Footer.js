@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-blue-900 text-white '>
-            <footer className="footer p-10 container">
+            <footer className="footer p-10 container ">
             <div>
     <span className="footer-title">Social</span> 
     <div className="grid grid-flow-col gap-4">
@@ -34,10 +34,10 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </div>
 </footer> 
-<footer className="footer align-item-center px-12 py-4 border-t container   bg-blue-900 text-white">
-  <div className=" grid-flow-col ">
+<footer className="footer  px-12 py-4 border-t    bg-blue-900 text-white">
+  <div className=" text-center">
     
-    <p className=''>Copyright © 2023 - All right reserved by  <br/>Book Store </p>
+    <p >Copyright © 2023 - All right reserved by  <br/>Book Store </p>
   </div> 
 
 </footer>
