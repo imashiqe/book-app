@@ -60,7 +60,7 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-yellow-500 text-blue-900">Order Today</a>
+    <a className="btn bg-yellow-500 text-blue-900  ">Order Today</a>
     <Link to='login' className="btn bg-yellow-500 text-blue-900 mx-5">Login</Link>
    
   </div>
