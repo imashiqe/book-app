@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Scroll from '../Scroll/Scroll';
 
 const Header = () => {
     return (
@@ -63,7 +64,10 @@ const Header = () => {
   </div>
 </div>
             </div>
+
+            <Scroll></Scroll>
         </div>
+        
     );
 };
 
