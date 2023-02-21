@@ -18,7 +18,7 @@ portable magic </h2>
   </div>
                  </div>
                  <div className='px-10 py-3'>
-                     <Link className='text-white border border-b-4 border-white'>Read Free Demo</Link>
+                     <Link className='text-white border border-t-0 border-r-0 border-l-0 border-b-2 border-white ' to='#'>Read Free Demo</Link>
                  </div>
           </div>
 

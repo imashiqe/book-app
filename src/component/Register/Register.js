@@ -40,8 +40,8 @@ const Register = () => {
             
           </label>
         </div>
-        <div className="form-control mt-6">
-          <button className="btn btn-primary  bg-blue-900 border-2 hover:border-yellow-600 hover:bg-white hover:text-blue-900">Login</button>
+        <div className="form-control mt-6 ">
+          <button className="btn btn-primary  bg-blue-900 border-2 hover:border-yellow-600 hover:bg-white hover:text-blue-900 ">Login</button>
           <button className="btn btn-primary   border-2 border-yellow-600 hover:bg-white hover:text-blue-900 hover:border-2  bg-white text-blue-900 mt-3 ">Continue With Google </button>
           <button className="btn btn-primary   border-2 border-yellow-600 hover:bg-white hover:text-blue-900 hover:border-2  bg-white text-blue-900 mt-3">Continue With Github</button>
          
