@@ -14,7 +14,7 @@ portable magic </h2>
           <div className='flex'>
                  <div>
                  <div className="">
-    <a className="btn bg-yellow-500 text-blue-900 hover:bg-white hover:border-2 hover:border-yellow-600">Order Today</a>
+    <a className="btn bg-yellow-500 text-blue-900 hover:bg-white hover:border-2 hover:border-yellow-600 rounded-none">Order Today</a>
   </div>
                  </div>
                  <div className='px-10 py-3'>

@@ -60,8 +60,8 @@ const Header = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-yellow-500 text-blue-900  hover:bg-white hover:border-2 hover:border-yellow-600">Order Today</a>
-    <Link to='login' className="btn bg-yellow-500 text-blue-900 mx-5 hover:bg-white hover:border-2 hover:border-yellow-600">Login</Link>
+    <a className="btn bg-yellow-500 text-blue-900  hover:bg-white hover:border-2 hover:border-yellow-600 rounded-none">Order Today</a>
+    <Link to='login' className="btn bg-yellow-500 text-blue-900 mx-5 hover:bg-white hover:border-2 hover:border-yellow-600 rounded-none">Login</Link>
    
   </div>
 

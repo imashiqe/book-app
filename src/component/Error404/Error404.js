@@ -16,7 +16,7 @@ const Error404 = () => {
        <h2 className='py-5 text-2xl text-blue-900'>Page not Found!!!</h2>
       <p className="mb-5 text-blue-700">The page you are looking for doesn't exist. Please try searching for some other page, or return to the website's homepage to find what you're looking for.</p>
       
-      <Link className="btn btn-primary    bg-yellow-500 text-blue-900 hover:bg-white hover:border-2 hover:border-yellow-600" to='/'>Back to Home</Link>
+      <Link className="btn btn-primary  rounded-none  bg-yellow-500 text-blue-900 hover:bg-white hover:border-2 hover:border-yellow-600" to='/'>Back to Home</Link>
     </div>
   </div>
 </div>
