@@ -38,7 +38,7 @@ const Footer = () => {
 <footer className="footer  px-12 py-4 border-t  justify-center   bg-blue-900 text-white">
   <div className=" text-center">
     
-    <p >Copyright © 2023 - All right reserved by  <br/>Book Store  Developed By <Link to='https://www.gnexer.com'>Gnexer</Link></p>
+    <p >Copyright © 2023 - All right reserved by  Book Store <br/> Developed By <Link to='https://www.gnexer.com'>Gnexer</Link></p>
   </div> 
 
 </footer>
