@@ -12,7 +12,7 @@ const Book_copy = () => {
     <h2 className="card-title text-4xl text-white font-bold pb-5">Get Book Copy Today!</h2>
     <p className='text-2xl text-white'>This the first true value generator on the Internet. It uses alphas dictionary of over 200 Latin words.</p>
     <div className="card-actions ">
-      <button className="btn btn-primary bg-transparent border-2 border-yellow-500">Order Today</button>
+      <button className="btn btn-primary bg-transparent border-2 border-yellow-500 rounded-none hover:bg-white hover:text-blue-900">Order Today</button>
     </div>
   </div>
 
