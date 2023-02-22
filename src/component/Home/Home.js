@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import Book_copy from './Book_copy/Book_copy';
 import Book_include from './Book_include/Book_include';
 import Trusted from './Trusted/Trusted';
+import What_learn from './What_learn/What_learn';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <About_author></About_author>
             <Trusted></Trusted>
             <Book_copy></Book_copy>
+            <What_learn></What_learn>
         </div>
     );
 };
