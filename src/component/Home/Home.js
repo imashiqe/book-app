@@ -1,4 +1,5 @@
 import React from 'react';
+import Article_res from './Article_res/Article_res';
 import About_author from './Banner/About_author/About_author';
 import Banner from './Banner/Banner';
 import Book_copy from './Book_copy/Book_copy';
@@ -20,6 +21,7 @@ const Home = () => {
             <What_learn></What_learn>
             <Chapter_include></Chapter_include>
             <What_reader></What_reader>
+            <Article_res></Article_res>
             <Subscribe></Subscribe>
         </div>
     );
