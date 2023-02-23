@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Error404 from "../../component/Error404/Error404";
+import Forgot_password from "../../component/Forgot_password/Forgot_password";
 import Home from "../../component/Home/Home";
 import Login from "../../component/Login/Login";
 import Register from "../../component/Register/Register";
@@ -22,6 +23,10 @@ import Main from "../../layout/Main";
           {
             path: '/register',
             element: <Register></Register>
+          },
+          {
+            path: '/forgot',
+            element: <Forgot_password></Forgot_password>
           }
       ]
     },
