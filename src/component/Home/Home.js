@@ -6,6 +6,7 @@ import Book_include from './Book_include/Book_include';
 import Chapter_include from './Chapter_include/Chapter_include';
 import Trusted from './Trusted/Trusted';
 import What_learn from './What_learn/What_learn';
+import What_reader from './What_reader/What_reader';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Book_copy></Book_copy>
             <What_learn></What_learn>
             <Chapter_include></Chapter_include>
+            <What_reader></What_reader>
         </div>
     );
 };
