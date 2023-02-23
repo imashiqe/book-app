@@ -1,16 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import book from '../../../assets/image/book_banner.png';
+
+
+
 const Banner = () => {
     return (
-        <div className='bg-blue-900 py-16 px-16'>
+        <div className='bg-blue-900 py-16 px-16  '>
              <div className='container mx-auto grid  grid-cols-1 lg:grid-cols-2'>
                    <div>
                       <h5 className='text-white text-1xl'>Welcome To Our Book Store</h5>
-                      <h2 className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl'>Books are uniquely
+                      <h2 className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl '>
+                        
+                        Books are uniquely
 portable magic </h2>
-   <p className='py-5 text-white lg:text-lg '>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
 
+   <p className='py-5 text-white lg:text-lg '>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+  
           <div className='flex'>
                  <div>
                  <div className="">
@@ -21,6 +27,8 @@ portable magic </h2>
                      <Link className='text-white border border-t-0 border-r-0 border-l-0 border-b-2 border-white ' to='#'>Read Free Demo</Link>
                  </div>
           </div>
+
+          
 
              <div className='grid grid-cols-3 py-5' >
                  <div >

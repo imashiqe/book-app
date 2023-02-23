@@ -21,7 +21,7 @@ const Forgot_password = () => {
   <label className="input-group">
     <span>Email</span>
     <input type="text" placeholder="Type Your Email" className="input input-bordered" />
-    <button className='btn bg-yellow-500 hover:text-yellow-500 lg:border-none hover:bg-white hover:border-yellow-500 hover:border-2'>Submit</button>
+    <button className='btn bg-blue-900 hover:text-yellow-500 lg:border-none hover:bg-white hover:border-yellow-500 hover:border-2'>Submit</button>
   </label>
 </div>
                          </div>
