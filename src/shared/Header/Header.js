@@ -55,8 +55,9 @@ const Header = () => {
       </li>
       <li><a>About</a></li>
       <li><a>Services</a></li>
-      <li><a>Contact</a></li>
-      <div className="tooltip tooltip-open tooltip-top" data-tip="15">
+
+      <Link className='pt-3' to='/contact'>Contact</Link>
+      <div className="tooltip tooltip-open tooltip-top pl-2" data-tip="15">
   <button className="btn">Cart</button>
 </div>
     </ul>

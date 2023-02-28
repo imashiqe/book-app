@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import Contact_us from "../../component/Contact_us/Contact_us";
 import Error404 from "../../component/Error404/Error404";
 import Forgot_password from "../../component/Forgot_password/Forgot_password";
 import Home from "../../component/Home/Home";
@@ -27,6 +28,10 @@ import Main from "../../layout/Main";
           {
             path: '/forgot',
             element: <Forgot_password></Forgot_password>
+          },
+          {
+            path: '/contact',
+            element: <Contact_us></Contact_us>
           }
       ]
     },
