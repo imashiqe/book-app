@@ -1,3 +1,7 @@
+
+import { faLocation ,faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
 
 const Contact_us = () => {
@@ -20,13 +24,13 @@ const Contact_us = () => {
             available, but the majority have suffered alteration in some <br></br>form, by injected humour,
             or randomised words which don't <br></br>look even slightly believable.</p>
            
-              <h3 className='pt-5 text-2xl text-blue-900'><span>icon</span> Visit Us :</h3>
+              <h5 className='pt-5 text-1xl font-bold text-blue-900'><span><FontAwesomeIcon icon={faLocation} /></span> Visit Us :</h5>
               <p className='pl-5'>No: 09a, Downtown, San Dieago, USA.</p>
 
-              <h3 className='text-2xl text-blue-900'><span>icon</span> Drop Us :</h3>
+              <h5 className='text-1xl font-bold text-blue-900'><span><FontAwesomeIcon icon={faEnvelope} /></span> Drop Us :</h5>
               <p className='pl-5'>support@pages.com</p>
 
-              <h3 className='text-2xl text-blue-900'><span>icon</span> Call Us :</h3>
+              <h5 className='text-1xl font-bold text-blue-900'><span><FontAwesomeIcon icon={faPhone} /></span> Call Us :</h5>
               <p className='pl-5'>Call: 1-800-123-9999</p>
               
       </div>
@@ -50,6 +54,7 @@ const Contact_us = () => {
 
   <label className="input-group pt-3 ">
     <span>Massage</span>
+  
    <textarea className='w-96'></textarea>
   </label>
 
