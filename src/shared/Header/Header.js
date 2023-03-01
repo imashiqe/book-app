@@ -1,3 +1,5 @@
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Scroll from '../Scroll/Scroll';
@@ -57,8 +59,9 @@ const Header = () => {
       <li><a>Services</a></li>
 
       <Link className='pt-3' to='/contact'>Contact</Link>
-      <div className="tooltip tooltip-open tooltip-top pl-2" data-tip="15">
-  <button className="btn">Cart</button>
+      <div className="tooltip tooltip-open tooltip-top pl-5 mt-3 " data-tip="15">
+
+   <Link className='' to='#'>   <FontAwesomeIcon icon={faCartShopping}  /></Link>
 </div>
     </ul>
   </div>

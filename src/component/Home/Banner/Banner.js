@@ -34,15 +34,15 @@ portable magic </h2>
 
              <div className='grid grid-cols-3 py-5' >
                  <div >
-                    <h2 className='text-white'><span className='pr-2 text-yellow-500'><FontAwesomeIcon icon={faCircle} /></span>Pages:</h2>
+                    <h2 className='text-white'><span > <FontAwesomeIcon icon={faCircle} className="text-yellow-500" /> </span>Pages:</h2>
                     <p className='text-slate-400 '>586 Pages</p>
                  </div>
                  <div >
-                 <h2 className='text-white'> <span className='pr-2 text-yellow-500'><FontAwesomeIcon icon={faCircle} /></span>Length</h2>
+                 <h2 className='text-white'> <span > <FontAwesomeIcon icon={faCircle} className="text-yellow-500" /> </span>Length</h2>
                     <p className='text-slate-400'>10 Hours</p>
                  </div>
                  <div >
-                 <h2 className='text-white'> <span className='pr-2 text-yellow-500'><FontAwesomeIcon icon={faCircle} /></span> Ratings :</h2>
+                 <h2 className='text-white'> <span > <FontAwesomeIcon icon={faCircle} className="text-yellow-500" /></span> Ratings :</h2>
                     <p className='text-slate-400'>4.5/5 (305 ratings)</p>
                  </div>
              </div>

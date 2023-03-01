@@ -1,3 +1,5 @@
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -13,10 +15,10 @@ const Chapter_include = () => {
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
         <div>
-            <h2 className='text-blue-900 text-1xl font-bold'>Pages : <span className='text-slate-500 '>85pages</span></h2>
+            <h2 className='text-blue-900 text-1xl font-bold'><FontAwesomeIcon icon={faCircle} className="text-yellow-500" />  Pages : <span className='text-slate-500 '>85pages</span></h2>
         </div>
         <div>
-        <h2 className='text-blue-900 text-1xl font-bold'>Length : <span className='text-slate-500 '>1 Hour 15 mins</span></h2>
+        <h2 className='text-blue-900 text-1xl font-bold'><FontAwesomeIcon icon={faCircle} className="text-yellow-500" />  Length : <span className='text-slate-500 '>1 Hour 15 mins</span></h2>
         </div>
     </div>
   </div>
@@ -29,10 +31,10 @@ const Chapter_include = () => {
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
         <div>
-            <h2 className='text-blue-900 text-1xl font-bold'>Pages : <span className='text-slate-500 '>85pages</span></h2>
+            <h2 className='text-blue-900 text-1xl font-bold'> <FontAwesomeIcon icon={faCircle} className="text-yellow-500" /> Pages : <span className='text-slate-500 '>85pages</span></h2>
         </div>
         <div>
-        <h2 className='text-blue-900 text-1xl font-bold'>Length : <span className='text-slate-500 '>1 Hour 15 mins</span></h2>
+        <h2 className='text-blue-900 text-1xl font-bold'> <FontAwesomeIcon icon={faCircle} className="text-yellow-500" /> Length : <span className='text-slate-500 '>1 Hour 15 mins</span></h2>
         </div>
     </div>
   </div>
@@ -44,10 +46,10 @@ const Chapter_include = () => {
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
         <div>
-            <h2 className='text-blue-900 text-1xl font-bold'>Pages : <span className='text-slate-500 '>85pages</span></h2>
+            <h2 className='text-blue-900 text-1xl font-bold'><FontAwesomeIcon icon={faCircle} className="text-yellow-500" />  Pages : <span className='text-slate-500 '>85pages</span></h2>
         </div>
         <div>
-        <h2 className='text-blue-900 text-1xl font-bold'>Length : <span className='text-slate-500 '>1 Hour 15 mins</span></h2>
+        <h2 className='text-blue-900 text-1xl font-bold'><FontAwesomeIcon icon={faCircle} className="text-yellow-500" />  Length : <span className='text-slate-500 '>1 Hour 15 mins</span></h2>
         </div>
     </div>
   </div>
@@ -59,16 +61,18 @@ const Chapter_include = () => {
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
         <div>
-            <h2 className='text-blue-900 text-1xl font-bold'>Pages : <span className='text-slate-500 '>85pages</span></h2>
+            <h2 className='text-blue-900 text-1xl font-bold'> <FontAwesomeIcon icon={faCircle} className="text-yellow-500" /> Pages : <span className='text-slate-500 '>85pages</span></h2>
         </div>
         <div>
-        <h2 className='text-blue-900 text-1xl font-bold'>Length : <span  className='text-slate-500 '>1 Hour 15 mins</span></h2>
+        <h2 className='text-blue-900 text-1xl font-bold'> <FontAwesomeIcon icon={faCircle} className="text-yellow-500" />  Length : <span  className='text-slate-500 '>1 Hour 15 mins</span></h2>
         </div>
     </div>
   </div>
 </div>
 
- 
+
+
+
         </div>
 
         <div className='mx-auto flex flex-col items-center container text-center'>
