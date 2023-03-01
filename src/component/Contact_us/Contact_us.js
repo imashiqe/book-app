@@ -1,12 +1,15 @@
 
+import { faMessage, faUser } from '@fortawesome/free-regular-svg-icons';
 import { faLocation ,faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Animation } from 'gsap/gsap-core';
 
 import React from 'react';
 
 const Contact_us = () => {
     return (
         <div >
+       
               <div className='pt-20 pb-20 bg-blue-900 text-center'  >
 
 
@@ -18,7 +21,7 @@ const Contact_us = () => {
 
               <div className='pt-20 pb-20 container mx-auto grid grid-cols-1'>
               <div className="card lg:card-side  ">
-      <div>
+      <div className='lg:ml-40'>
            <h2 className='text-3xl font-bold text-blue-900'>Keep in Touch</h2>
            <p className='text-1xl text-slate-400 pt-3'>There are many variations of passages of Lorem Ipsum <br></br>
             available, but the majority have suffered alteration in some <br></br>form, by injected humour,
@@ -34,26 +37,26 @@ const Contact_us = () => {
               <p className='pl-5'>Call: 1-800-123-9999</p>
               
       </div>
-  <div className="card-body ml-20 mx-auto">
+  <div className="card-body lg:ml-20  ">
         <div >
         <div className="form-control">
 
   <label className="input-group">
-    <span>Name</span>
+    <span><FontAwesomeIcon icon={faUser} /></span>
     <input type="text" placeholder="Type Your Name" className="input input-bordered w-96" />
   </label>
 
   <label className="input-group pt-3">
-    <span>Email</span>
+    <span><FontAwesomeIcon icon={faEnvelope}/></span>
     <input type="email" placeholder="info@site.com" className="input input-bordered w-96" />
   </label>
   <label className="input-group pt-3">
-    <span>Phone</span>
+    <span><FontAwesomeIcon icon={faPhone} /></span>
     <input type="phone" placeholder="Type Your Phone Number" className="input input-bordered w-96" />
   </label>
 
   <label className="input-group pt-3 ">
-    <span>Massage</span>
+    <span><FontAwesomeIcon icon={faMessage} /></span>
   
    <textarea className='w-96'></textarea>
   </label>

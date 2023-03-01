@@ -1,5 +1,6 @@
 import { faCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useSpring , animated } from '@react-spring/web';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import book from '../../../assets/image/book_banner.png';
@@ -7,15 +8,23 @@ import book from '../../../assets/image/book_banner.png';
 
 
 const Banner = () => {
+    const fade = useSpring({
+       from: {
+          opacity : 0
+       },
+       to: {
+          opacity: 1
+       }
+    });
     return (
-        <div className='bg-blue-900 py-16 px-16  '>
+        <div className='bg-blue-900 py-16 px-16  ' >
              <div className='container mx-auto grid  grid-cols-1 lg:grid-cols-2'>
                    <div>
                       <h5 className='text-white text-1xl'>Welcome To Our Book Store</h5>
-                      <h2 className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl '>
+                      <animated.h2 style={fade} className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl '>
                         
                         Books are uniquely
-portable magic </h2>
+portable magic </animated.h2>
 
    <p className='py-5 text-white lg:text-lg '>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
   
