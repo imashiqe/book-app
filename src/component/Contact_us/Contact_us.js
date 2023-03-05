@@ -58,7 +58,7 @@ const Contact_us = () => {
   <label className="input-group pt-3 ">
     <span><FontAwesomeIcon icon={faMessage} /></span>
   
-   <textarea className='w-96'></textarea>
+   <textarea className='w-96' placeholder='Type Your Message'></textarea>
   </label>
 
   <button className='btn mt-5 w-96 bg-yellow-600 lg:border-none'>Submit</button>

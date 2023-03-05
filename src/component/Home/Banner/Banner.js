@@ -2,9 +2,10 @@ import { faCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useSpring , animated } from '@react-spring/web';
 import React from 'react';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
 import book from '../../../assets/image/book_banner.png';
-
+import 'react-photo-view/dist/react-photo-view.css';
 
 
 const Banner = () => {
@@ -58,10 +59,21 @@ portable magic </animated.h2>
                    </div>
 
                    <div>
+                   <PhotoProvider >
                    <div className="card   ">
-  <figure><img src={book} alt="Album"/></figure>
+  <figure>
+
+  
+ 
+  <PhotoView src={book}>
+  <img src={book} style={{ objectFit: 'cover' }} alt="" />
+</PhotoView>
+
+
+  </figure>
 
 </div>
+</PhotoProvider>
                    </div>
              </div>
         </div>

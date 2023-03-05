@@ -1,10 +1,19 @@
+import { useSpring , animated } from '@react-spring/web';
 import React from 'react';
 import author from '../../../../assets/image/about_author.png';
 import details from  '../../../../assets/image/Details.png';
 const About_author = () => {
+    const fade =  useSpring({
+        from: {
+           opacity : 0
+        },
+        to: {
+           opacity: 1
+        }
+     });
     return (
         
-              <div className='my-20 container mx-auto'>
+              <animated.div className='my-20 container mx-auto ' style={fade}>
           
             
             <div className='grid grid-cols-1 lg:grid-cols-1'>
@@ -37,7 +46,7 @@ const About_author = () => {
   </div>
 </div>
             </div>
-        </div>
+        </animated.div>
        
     );
 };
