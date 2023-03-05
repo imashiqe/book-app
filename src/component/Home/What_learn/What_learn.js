@@ -1,5 +1,7 @@
 import React from 'react';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 import  whatlearn from '../../../assets/image/whatlearn.png';
+import 'react-photo-view/dist/react-photo-view.css';
 const What_learn = () => {
     return (
         <div className='my-20'>
@@ -42,8 +44,14 @@ const What_learn = () => {
 
 
   </div>
-
-  <figure className='px-5'><img src={whatlearn} alt="Album"/></figure>
+<PhotoProvider>
+<figure className='px-5'>
+  <PhotoView src={whatlearn}>
+  <img src={whatlearn} alt="Album"/>
+  </PhotoView>
+  </figure>
+</PhotoProvider>
+  
 </div>
             </div>
             

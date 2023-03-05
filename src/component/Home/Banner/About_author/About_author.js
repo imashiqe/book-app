@@ -1,7 +1,9 @@
 import { useSpring , animated } from '@react-spring/web';
 import React from 'react';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
 import author from '../../../../assets/image/about_author.png';
 import details from  '../../../../assets/image/Details.png';
+import 'react-photo-view/dist/react-photo-view.css';
 const About_author = () => {
     const fade =  useSpring({
         from: {
@@ -17,8 +19,18 @@ const About_author = () => {
           
             
             <div className='grid grid-cols-1 lg:grid-cols-1'>
+                <PhotoProvider>
+
+             
             <div className="card lg:card-side ">
-  <figure><img src={author} alt="Album"/></figure>
+
+  <figure>
+    <PhotoView src={author}>
+    <img src={author} style={{ objectFit: 'cover' }} alt="Album"/>
+    </PhotoView>
+    </figure>
+
+
   <div className=" card-body px-20">
     <h2 className="card-title text-2xl">About Author</h2>
     <p>All the Lorem Ipsum generators on the Internet tend to repeated <br></br> predefined chunks as necessary, 
@@ -39,12 +51,21 @@ const About_author = () => {
                  <p>Books Published</p>
              </div>
          </div>
-
-
-         <img className='py-20' src={details}></img>
+       
+             <div>
+                <PhotoView src={details}>
+                <img className='py-20' style={{ objectFit: 'cover' }} src={details}></img>
+                </PhotoView>
+       
+         </div>
+         
+       
+    
    
   </div>
 </div>
+</PhotoProvider>
+
             </div>
         </animated.div>
        
