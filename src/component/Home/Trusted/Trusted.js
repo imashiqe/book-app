@@ -9,7 +9,7 @@ const Trusted = () => {
         <h2 className='text-center font-bold text-2xl border-b-2 w-96 mx-auto border-yellow-500 pb-3'>Trusted by the Best</h2>
         
         <div className='grid grid-cols-2 py-5 text-center lg:grid-cols-4 container mx-auto mt-5'>
-            <div className="card  bg-base-100 ">
+            <div className="card  bg-base-100 " data-aos="flip-right">
   <figure><img src={trustone} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title justify-center text-blue-900 text-2xl">Amazen Corp</h2>
@@ -18,7 +18,7 @@ const Trusted = () => {
   </div>
 </div>
 
-            <div className="card mx-2 bg-base-100 ">
+            <div className="card mx-2 bg-base-100 " data-aos="flip-right">
   <figure><img src={trusttwo} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title justify-center  text-blue-900 text-2xl">Megan Books</h2>
@@ -27,7 +27,7 @@ const Trusted = () => {
   </div>
 </div>
 
-            <div className="card  mx-2 bg-base-100 ">
+            <div className="card  mx-2 bg-base-100 " data-aos="flip-right">
   <figure><img src={trustthree} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title justify-center   text-blue-900 text-2xl">Los Books</h2>
@@ -36,7 +36,7 @@ const Trusted = () => {
   </div>
 </div>
 
-            <div className="card  mx-2 bg-base-100 ">
+            <div className="card  mx-2 bg-base-100 " data-aos="flip-right">
   <figure><img src={trustfour} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title justify-center    text-blue-900 text-2xl">Urban Lib</h2>
