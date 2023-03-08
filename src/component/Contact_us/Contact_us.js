@@ -20,7 +20,7 @@ const Contact_us = () => {
               </div>
 
               <div className='pt-20 pb-20 container mx-auto grid grid-cols-1'>
-              <div className="card lg:card-side  ">
+              <div className="card lg:card-side  " data-aos="flip-right">
       <div className='lg:ml-40'>
            <h2 className='text-3xl font-bold text-blue-900'>Keep in Touch</h2>
            <p className='text-1xl text-slate-400 pt-3'>There are many variations of passages of Lorem Ipsum <br></br>
@@ -37,7 +37,7 @@ const Contact_us = () => {
               <p className='pl-5'>Call: 1-800-123-9999</p>
               
       </div>
-  <div className="card-body lg:ml-20  ">
+  <div className="card-body lg:ml-20  " data-aos="flip-left">
         <div >
         <div className="form-control">
 

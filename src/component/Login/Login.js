@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200 " data-aos="flip-right">
+            <div className="hero min-h-screen bg-base-200 " >
   <div className="hero-content ">
       
-    <div className="card   shadow-2xl bg-base-100">
+    <div className="card   shadow-2xl bg-base-100 " data-aos="flip-right">
         <h2 className='text-center py-5 text-3xl font-bold text-blue-900'>Login Now</h2>
       <div className="card-body grid grid-cols-1 lg:grid-cols-2">
         <div className="form-control">
