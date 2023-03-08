@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Register = () => {
     return (
         <div>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen bg-base-200" data-aos="flip-right">
   <div className="hero-content ">
       
     <div className="card   shadow-2xl bg-base-100">
