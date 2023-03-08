@@ -8,7 +8,7 @@ const What_reader = () => {
             <div className='grid grid-cols-1  lg:grid-cols-2   container mx-auto'>
             <div className="card  ">
  
-  <div className="card-body">
+  <div className="card-body " data-aos="flip-left">
     <h2 className="card-title text-4xl text-blue-900">What Readers <br></br> Say About the <br></br> Book</h2>
     <p className='text-1xl text-slate-400'>If you are going to use a passage of Lorem <br></br> Ipsum, you need to be sure there isn't anything <br></br> embarrassing hidden in the middle of text. <br></br> All the Lorem Ipsum generators.</p>
     <div className="rating rating-lg">
@@ -26,7 +26,7 @@ const What_reader = () => {
 
   <div className='grid grid-cols-2 '>
   <div className="card  text-primary-content bg-blue-900">
-  <div className="card-body">
+  <div className="card-body" data-aos="flip-right">
     <div className='grid grid-cols-1 lg:grid-cols-2'>
         <div>
         <div className="avatar">
@@ -60,7 +60,7 @@ const What_reader = () => {
 </div>
 
 <div className="card  text-primary-content bg-blue-900 ml-5  ">
-  <div className="card-body">
+  <div className="card-body" data-aos="flip-right">
     <div className='grid grid-cols-1 lg:grid-cols-2'>
         <div>
         <div className="avatar">
@@ -94,7 +94,7 @@ const What_reader = () => {
 </div>
 
 <div className="card  text-primary-content bg-blue-900 mt-5">
-  <div className="card-body">
+  <div className="card-body" data-aos="flip-right">
     <div className='grid grid-cols-1 lg:grid-cols-2'>
         <div>
         <div className="avatar">

@@ -10,7 +10,7 @@ const Chapter_include = () => {
         
         <div className='grid grid-cols-1 lg:grid-cols-2 container mx-auto pt-20'>
         <div className="card   shadow-xl">
-  <div className="card-body">
+  <div className="card-body" data-aos="fade-down-right">
     <h2 className="card-title text-blue-900">Chapter- 01  <span className='text-blue-700'>Get Started Intro</span> </h2>
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
@@ -26,7 +26,7 @@ const Chapter_include = () => {
 
     
 <div className="card   shadow-xl lg:ml-5">
-  <div className="card-body">
+  <div className="card-body" data-aos="fade-down-right">
     <h2 className="card-title text-blue-900">Chapter- 02   <span className='text-blue-700'>Create a Massive Content</span></h2>
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
@@ -41,7 +41,7 @@ const Chapter_include = () => {
 </div>
 
 <div className="card   shadow-xl">
-  <div className="card-body">
+  <div className="card-body" data-aos="fade-down-right">
     <h2 className="card-title text-blue-900">Chapter- 03   <span className='text-blue-700'>Maintaining the Creative Arcs</span></h2>
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>
@@ -56,7 +56,7 @@ const Chapter_include = () => {
 </div>
 
 <div className="card   shadow-xl lg:ml-5">
-  <div className="card-body">
+  <div className="card-body" data-aos="fade-down-right">
     <h2 className="card-title text-blue-900">Chapter- 04   <span className='text-blue-700'>The Conclusion</span></h2>
     <p className='text-slate-500'>Making this the first true value generator on the Internet. It of over 200 Latin words, combined with a handful.</p>
     <div className='grid grid-cols-2'>

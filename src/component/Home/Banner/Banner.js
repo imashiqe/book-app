@@ -9,6 +9,10 @@ import 'react-photo-view/dist/react-photo-view.css';
 
 
 const Banner = () => {
+   
+   
+
+
     const fade = useSpring({
        from: {
           opacity : 0
@@ -18,9 +22,10 @@ const Banner = () => {
        }
     });
     return (
+
         <div className='bg-blue-900 py-16 px-16  ' >
              <div className='container mx-auto grid  grid-cols-1 lg:grid-cols-2'>
-                   <div>
+                   <div data-aos="fade-up-right">
                       <h5 className='text-white text-1xl'>Welcome To Our Book Store</h5>
                       <animated.h2 style={fade} className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl '>
                         
@@ -60,7 +65,7 @@ portable magic </animated.h2>
 
                    <div>
                    <PhotoProvider >
-                   <div className="card   ">
+                   <div className="card   " data-aos="fade-up-left">
   <figure>
 
   

@@ -22,16 +22,16 @@ const About_author = () => {
                 <PhotoProvider>
 
              
-            <div className="card lg:card-side ">
+            <div className="card lg:card-side  " >
 
-  <figure>
+  <figure data-aos="fade-right">
     <PhotoView src={author}>
     <img src={author} style={{ objectFit: 'cover' }} alt="Album"/>
     </PhotoView>
     </figure>
 
 
-  <div className=" card-body px-20">
+  <div className=" card-body px-20 " data-aos="fade-left" >
     <h2 className="card-title text-2xl">About Author</h2>
     <p>All the Lorem Ipsum generators on the Internet tend to repeated <br></br> predefined chunks as necessary, 
         making this the first true value <br></br> generator on the Internet. It uses a dictionary of over 200 Latin <br></br> words,

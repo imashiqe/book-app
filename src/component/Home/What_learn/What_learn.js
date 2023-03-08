@@ -9,7 +9,7 @@ const What_learn = () => {
             <div className='container mx-auto '>
             <div className=" py-20 grid grid-cols-1 lg:grid-cols-2">
  
-  <div className="card-body grid grid-cols-2">
+  <div className="card-body grid grid-cols-2 " data-aos="fade-down-right">
   <div className="card   shadow-xl">
   <div className="card-body">
     <h2 className="card-title bg-yellow-500 rounded-full p-2 mr-10 lg:mr-40 pl-5">01</h2>
@@ -45,7 +45,7 @@ const What_learn = () => {
 
   </div>
 <PhotoProvider>
-<figure className='px-5'>
+<figure className='px-5' data-aos="fade-down-left">
   <PhotoView src={whatlearn}>
   <img src={whatlearn} alt="Album"/>
   </PhotoView>

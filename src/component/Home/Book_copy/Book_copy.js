@@ -11,7 +11,7 @@ const Book_copy = () => {
         <PhotoProvider>
         <div className="card card-side  ">
   
-  <div className="card-body">
+  <div className="card-body " data-aos="fade-down-right">
     <h2 className="card-title text-4xl text-white font-bold pb-5">Get Book Copy Today!</h2>
     <p className='text-2xl text-white'>This the first true value generator on the Internet. It uses alphas dictionary of over 200 Latin words.</p>
     <div className="card-actions ">
@@ -21,7 +21,7 @@ const Book_copy = () => {
 
 
 
-  <figure>
+  <figure data-aos="fade-down-left">
     <PhotoView src={bookcopy}>
     <img src={bookcopy} style={{ objectFit: 'cover' }}  alt="Movie"/>
     </PhotoView>
