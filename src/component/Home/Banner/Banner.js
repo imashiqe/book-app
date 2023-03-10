@@ -1,6 +1,6 @@
 import { faCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useSpring , animated } from '@react-spring/web';
+import { useSpring  } from '@react-spring/web';
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
@@ -33,6 +33,8 @@ const Banner = () => {
                         Books are 
 
 
+
+<span className='text-yellow-400'>
 <TypeAnimation sequence={[
         'Uniquely', // Types 'One'
         1000, // Waits 1s
@@ -49,7 +51,7 @@ const Banner = () => {
       style={{ fontSize: '4xl'   }}>
 
    </TypeAnimation>
-
+</span>
 </h2>
   
 
