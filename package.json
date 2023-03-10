@@ -21,6 +21,7 @@
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
+    "react-type-animation": "^2.1.2",
     "text-animations-react": "^0.1.8",
     "web-vitals": "^2.1.4"
   },

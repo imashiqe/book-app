@@ -6,6 +6,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import { Link } from 'react-router-dom';
 import book from '../../../assets/image/book_banner.png';
 import 'react-photo-view/dist/react-photo-view.css';
+import { TypeAnimation } from 'react-type-animation';
 
 
 const Banner = () => {
@@ -27,10 +28,30 @@ const Banner = () => {
              <div className='container mx-auto grid  grid-cols-1 lg:grid-cols-2'>
                    <div data-aos="fade-up-right">
                       <h5 className='text-white text-1xl'>Welcome To Our Book Store</h5>
-                      <animated.h2 style={fade} className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl '>
+                      <h2  className='py-2 text-4xl lg:text-6xl font-bold text-white text-shadow-xl '>
                         
-                        Books are uniquely
-portable magic </animated.h2>
+                        Books are 
+
+
+<TypeAnimation sequence={[
+        'uniquely', // Types 'One'
+        1000, // Waits 1s
+        'portable ', // Deletes 'One' and types 'Two'
+        2000, // Waits 2s
+        'magic ', // Types 'Three' without deleting 'Two'
+        () => {
+         // console.log('Done typing!'); // Place optional callbacks anywhere in the array
+        }
+      ]}
+      wrapper="h2"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '4xl'   }}>
+
+   </TypeAnimation>
+
+</h2>
+  
 
    <p className='py-5 text-white lg:text-lg '>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
   
