@@ -34,11 +34,11 @@ const Banner = () => {
 
 
 <TypeAnimation sequence={[
-        'uniquely', // Types 'One'
+        'Uniquely', // Types 'One'
         1000, // Waits 1s
-        'portable ', // Deletes 'One' and types 'Two'
+        'Portable ', // Deletes 'One' and types 'Two'
         2000, // Waits 2s
-        'magic ', // Types 'Three' without deleting 'Two'
+        'Magic ', // Types 'Three' without deleting 'Two'
         () => {
          // console.log('Done typing!'); // Place optional callbacks anywhere in the array
         }
